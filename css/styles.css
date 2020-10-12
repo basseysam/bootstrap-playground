@@ -1,0 +1,163 @@
+@media(max-width: 900px){
+    .navbar .nav-item{
+        display: block;
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+        background: #262626;
+    }
+ 
+}
+
+/* navigation */
+
+.navbar{
+    background: #262626;
+}
+
+.navbar-nav a{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.nav-link{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #fff;
+    padding: 8px;
+    font-weight: bold;
+}
+.navbar i{
+    color: #fff;
+}
+.navbar-nav{
+    text-align: center;
+}
+.nav-link.active, .nav-link:focus{
+    color: #fff !important;
+}
+
+
+
+/* carouisal */
+.carousel{
+    margin-bottom: 0px;
+}
+
+.carousel-item{
+
+    max-height: 700px;
+    background: no-repeat center scroll ;
+    background-size: cover;
+}
+.carousel-caption{
+   bottom: 140px; 
+}
+.carousel-caption h5{
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-caption a{
+    text-transform: none;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.carousel-caption .btn-secondary{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    border: solid 1px #000;
+    color: #fff;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background: transparent !important;
+    border-color: #fff;
+}
+.carousel-caption .btn-secondary:hover{
+    background: #f2f2f2 !important;
+    color: #000;
+    border: solid 1px #000;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    font-weight: bold;
+}
+
+
+/* welcome */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3{
+    font-weight: 900;
+}
+h4,h5,h6{
+    font-weight: 700;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
+.welcome{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #f2f2f2;
+}
+
+.welcome h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    color: #262626;
+}
+.welcome p{
+    font-family: 'Oswald', sans-serif;
+    color: #262626 !important;
+    letter-spacing: 2px;
+}
+.line-1{
+    width: 150px;
+    height: 2px;
+    background: #262626;
+    display: inline-block;
+}
+.line-2{
+    width: 100px;
+    height: 2px;
+    background: #262626;
+    display: inline-block;
+}
+.line-3{
+    width: 50px;
+    height: 2px;
+    background: #262626;
+    display: inline-block;
+}
+.line{
+    line-height: 8px;
+}
+
+.about p{
+    font-family: 'Oswald', sans-serif;
+}
+/* services */
+
+.services i{
+    font-size: 2rem;
+    color: #f36b94;
+}
+.services h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+
